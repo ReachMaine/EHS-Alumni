@@ -8,3 +8,20 @@
  Version:      1.0.0
 */
 /*****Add any custom CSS below this line*****/
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+#main-header {
+  background-color: #611212; }
+  #main-header #et-top-navigation #top-menu-nav #top-menu li a {
+    color: white; }
+
+.ehsaa-dk-bkg.et_pb_with_background a {
+  color: #f1be32; }
+
+.et_pb_posts.ehsaa-blog-img-right article a.entry-featured-image-url img {
+  width: 40%;
+  float: right;
+  padding-left: 20px; }
+.et_pb_posts.ehsaa-blog-img-right article a.read-more-link {
+  float: none;
+  text-align: right; }
