@@ -34,19 +34,26 @@
 }
 // blog module with class ehsaa-blog-img-right
 // display image to right
-.et_pb_posts.ehsaa-blog-img-right {
+.et_pb_posts.ehsaa-blog-img-right { // also see media
   article {
-    a.entry-featured-image-url {
-      img {
-        width: 40%;
-        //max-width: 210px!important;
-        float: right;
-        padding-left: 20px;
-      }
-    }
-    a.read-more-link {
+      a.read-more-link {
       float: none;
       text-align: right;
     }
   }
 }
+
+// archive
+.archive {
+  article {
+    clear: both;
+    a.entry-featured-image-url {
+      img {
+        width: 40%;
+        float: left;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+@import "partials/media";

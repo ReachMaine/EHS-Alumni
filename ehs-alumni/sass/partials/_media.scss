@@ -7,9 +7,25 @@
 @media only screen and (max-width: 960px) {
 
 }
+@media only all  and (min-width: 600px) {
+  .et_pb_posts.ehsaa-blog-img-right {
+    article {
+      a.entry-featured-image-url {
+        img {
+          width: 40%;
+          //max-width: 210px!important;
+          float: right;
+          padding-left: 20px;
+        }
+      }
+    }// article
+  }
+} // end min-width 600px
+
+
 @media only all  and (max-width: 767px) {
 
 }
 
-@media all and (max-width: 479px) { {
+@media all and (max-width: 479px) {
 }
