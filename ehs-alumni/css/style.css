@@ -10,10 +10,59 @@
 /*****Add any custom CSS below this line*****/
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
+/* DIVI like styling for Gravity Forms */
+/*** REMOVE LABEL ON FIELDS USING PLACEHOLDER ***/
+.gform_wrapper .top_label .gfield_label,
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
+  display: none !important; }
+
+/*** FIELD STYLING ***/
+input[type=text],
+textarea {
+  background: #eee;
+  border: none;
+  border-radius: 0;
+  padding: 15px !important; }
+
+/*** BUTTON STYLING ***/
+.gform_wrapper .gform_footer input.button {
+  float: right;
+  background: transparent;
+  border: 2px solid #611212;
+  font-size: 22px;
+  color: #611212;
+  padding: 12px 23px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer; }
+
+/*** BUTTON HOVER STYLING ***/
+.gform_wrapper .gform_footer input.button:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border: 2px solid transparent; }
+
+#top-header .container {
+  padding-bottom: .75em; }
+  #top-header .container #ehsaa-info {
+    float: left;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: #611212; }
+  #top-header .container #et-secondary-menu .et-social-icons {
+    padding-top: .75em; }
+
 #main-header {
   background-color: #611212; }
   #main-header #et-top-navigation #top-menu-nav #top-menu li a {
+    color: white;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1.2em; }
+  #main-header #et-top-navigation #et_mobile_nav_menu .mobile_menu_bar:before {
     color: white; }
+  #main-header #et-top-navigation #et_mobile_nav_menu .mobile_menu_bar {
+    padding-top: 12px;
+    padding-bottom: 12px; }
 
 .ehsaa-dk-bkg.et_pb_with_background a {
   color: #f1be32; }
@@ -28,6 +77,16 @@
     width: 40%;
     float: left;
     padding-right: 20px; }
+
+#sidebar .widgettitle,
+.et_pb_widget_area .widgettitle {
+  color: #611212;
+  font-size: 1.75em;
+  line-height: 1.2em; }
+
+.et_pb_widget_area_left {
+  padding-right: 0px;
+  border-right: 0px; }
 
 /* **** media **** */
 @media only all and (min-width: 600px) {

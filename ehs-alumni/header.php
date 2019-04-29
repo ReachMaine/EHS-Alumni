@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <?php /* 	mods -
 		24April19 zig - move logo container outside of the menu container
+		29April19 zig - add site Title to top bar
  */ ?>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -64,6 +65,7 @@
 			<?php if ( $et_contact_info_defined ) : ?>
 
 				<div id="et-info">
+
 				<?php if ( '' !== ( $et_phone_number = et_get_option( 'phone_number' ) ) ) : ?>
 					<span id="et-info-phone"><?php echo et_core_esc_previously( et_sanitize_html_input_text( $et_phone_number ) ); ?></span>
 				<?php endif; ?>
@@ -79,7 +81,7 @@
 				</div> <!-- #et-info -->
 
 			<?php endif; // true === $et_contact_info_defined ?>
-
+			<div id="ehsaa-info"><?php printf( esc_html__( '%s', 'textdomain' ), get_bloginfo ( 'title' ) ); ?></div>
 				<div id="et-secondary-menu">
 				<?php
 					if ( ! $et_contact_info_defined && true === $show_header_social_icons ) {

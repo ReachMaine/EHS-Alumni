@@ -10,8 +10,25 @@
 
 /*****Add any custom CSS below this line*****/
 @import "partials/colors"; //
-
+@import "partials/gform";
 // header stuff.
+#top-header {
+  .container {
+    padding-bottom: .75em;
+    #ehsaa-info {
+      float: left;
+      font-size: 2em;
+      line-height: 1.2em;
+      color: $ehsaa-maroon;
+      //padding-top: 4px;
+    }
+    #et-secondary-menu {
+      .et-social-icons {
+        padding-top: .75em;
+      }
+    }
+  }
+}
 #main-header {
   background-color: $ehsaa-maroon;
 
@@ -20,9 +37,23 @@
       #top-menu {
         li a {
           color: white;
+          font-size: 1.3em;
+          font-weight: normal;
+          line-height: 1.2em;
         }
       }
     }
+    #et_mobile_nav_menu {
+
+        .mobile_menu_bar:before {
+          color: white;
+        }
+        .mobile_menu_bar  {
+          padding-top: 12px;
+          padding-bottom: 12px;
+        }
+    }
+
   }
 }
 // content
@@ -56,4 +87,19 @@
     }
   }
 }
+
+// sidebar
+#sidebar, // normal sidebar (posts & pages not build with divi builder)
+.et_pb_widget_area {
+  .widgettitle {
+    color: $ehsaa-maroon;
+    font-size: 1.75em;
+    line-height: 1.2em;
+  }
+}
+.et_pb_widget_area_left { // divi sidebar module
+  padding-right: 0px;
+  border-right: 0px;
+}
+
 @import "partials/media";
