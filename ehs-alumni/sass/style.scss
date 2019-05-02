@@ -17,7 +17,7 @@
     padding-bottom: .75em;
     #ehsaa-info {
       float: left;
-      font-size: 2em;
+      font-size: 1.8em;
       line-height: 1.2em;
       color: $ehsaa-maroon;
       //padding-top: 4px;
@@ -73,6 +73,11 @@
     }
   }
 }
+.et_pb_posts.ehsaa-blog-bottom-sm {
+  article {
+    margin-bottom: 0px;
+  }
+}
 
 // archive
 .archive {
@@ -91,9 +96,11 @@
 // sidebar
 #sidebar, // normal sidebar (posts & pages not build with divi builder)
 .et_pb_widget_area {
+  font-size: .9em;
+  line-height:1.4em;
   .widgettitle {
     color: $ehsaa-maroon;
-    font-size: 1.75em;
+    font-size: 1.4em;
     line-height: 1.2em;
   }
 }

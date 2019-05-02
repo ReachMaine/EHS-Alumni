@@ -45,7 +45,7 @@ textarea {
   padding-bottom: .75em; }
   #top-header .container #ehsaa-info {
     float: left;
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1.2em;
     color: #611212; }
   #top-header .container #et-secondary-menu .et-social-icons {
@@ -71,6 +71,9 @@ textarea {
   float: none;
   text-align: right; }
 
+.et_pb_posts.ehsaa-blog-bottom-sm article {
+  margin-bottom: 0px; }
+
 .archive article {
   clear: both; }
   .archive article a.entry-featured-image-url img {
@@ -78,11 +81,15 @@ textarea {
     float: left;
     padding-right: 20px; }
 
-#sidebar .widgettitle,
-.et_pb_widget_area .widgettitle {
-  color: #611212;
-  font-size: 1.75em;
-  line-height: 1.2em; }
+#sidebar,
+.et_pb_widget_area {
+  font-size: .9em;
+  line-height: 1.4em; }
+  #sidebar .widgettitle,
+  .et_pb_widget_area .widgettitle {
+    color: #611212;
+    font-size: 1.4em;
+    line-height: 1.2em; }
 
 .et_pb_widget_area_left {
   padding-right: 0px;
