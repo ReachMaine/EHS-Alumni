@@ -1,16 +1,7 @@
 /* basic css stuff */
-.reach-responsive-video {
-	position: relative;
-	padding-bottom: 50.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-	margin-bottom: 1em;
-	iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+.entry-content ul.ehsaa-list-airier { // used for scholar list on homepage.
+	li {
+		padding-bottom: 8px;
+		line-height: 1.2em;
 	}
 }

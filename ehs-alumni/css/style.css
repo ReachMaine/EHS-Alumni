@@ -10,6 +10,11 @@
 /*****Add any custom CSS below this line*****/
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
+/* basic css stuff */
+.entry-content ul.ehsaa-list-airier li {
+  padding-bottom: 8px;
+  line-height: 1.2em; }
+
 /* DIVI like styling for Gravity Forms */
 /*** REMOVE LABEL ON FIELDS USING PLACEHOLDER ***/
 .gform_wrapper .top_label .gfield_label,
