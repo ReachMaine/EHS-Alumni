@@ -1,7 +1,32 @@
 /* **** media **** */
 // Divi breakpts
 // mobile menu shows at max-width:
-
+@media all and (min-width:981px) { // desktop
+  .et_vertical_nav #page-container #main-header {
+    padding-top: 10px;
+    width: 275px;
+    .container {
+      margin-right: 20px;
+      .logo_container img {
+        width: 325px;
+        max-width: 325px;
+        margin-left: -40px;
+        margin-bottom: 0px;
+      }
+    }
+    #et-top-navigation {
+      #top-menu {
+        li a {
+          line-height: 1.3em;
+        }
+      }
+    }
+  }
+  .et_vertical_nav #et-main-area,
+  .et_vertical_nav #top-header {
+      margin-left: 275px;
+  }
+}
 @media all and (max-width: 980px) { // woo stuff
 }
 @media only screen and (max-width: 960px) {
