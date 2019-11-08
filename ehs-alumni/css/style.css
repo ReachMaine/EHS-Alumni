@@ -46,6 +46,12 @@ textarea {
   background: rgba(0, 0, 0, 0.05);
   border: 2px solid transparent; }
 
+/* styleing for posts & archives */
+.archive article {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 30px; }
+
 #top-header .container #ehsaa-info {
   float: left;
   font-size: 1.8em;
