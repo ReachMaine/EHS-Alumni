@@ -9,3 +9,8 @@ add_action( 'wp_enqueue_scripts', 'divi__child_theme_enqueue_styles' );
 //require_once(get_stylesheet_directory().'/custom/reach-CTAs.php');
 //require_once(get_stylesheet_directory().'/custom/language.php');
 require_once(get_stylesheet_directory().'/custom/divi.php');
+
+function mycustomscript_enqueue() {
+    wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/custom/blog-wrapper.js', array( 'jquery' ));
+}
+add_action( 'wp_enqueue_scripts', 'mycustomscript_enqueue' );

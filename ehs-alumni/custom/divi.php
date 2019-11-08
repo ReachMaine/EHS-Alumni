@@ -21,3 +21,13 @@ if ( ! function_exists( 'et_get_footer_credits' ) ) {
   	return et_get_safe_localization( sprintf( $credits_format, $footer_credits, 'div' ) );
   }
 }
+
+
+// put header "topbar" across all pages (except home page)
+function ehsaa_top_bar() {
+  if ( !is_front_page() ) {
+    echo do_shortcode('[et_pb_section global_module="1574"][/et_pb_section]');
+  }
+}
+
+add_action( 'et_before_main_content', 'ehsaa_top_bar' );

@@ -15,6 +15,10 @@
   padding-bottom: 8px;
   line-height: 1.2em; }
 
+.ehs-center-widget {
+  text-align: center;
+  float: none; }
+
 /* DIVI like styling for Gravity Forms */
 /*** REMOVE LABEL ON FIELDS USING PLACEHOLDER ***/
 .gform_wrapper .top_label .gfield_label,
@@ -47,10 +51,17 @@ textarea {
   border: 2px solid transparent; }
 
 /* styleing for posts & archives */
+.search article,
 .archive article {
+  clear: both;
   padding-bottom: 20px;
   border-bottom: 1px solid #dedede;
   margin-bottom: 30px; }
+  .search article a.entry-featured-image-url img,
+  .archive article a.entry-featured-image-url img {
+    width: 40%;
+    float: left;
+    padding-right: 20px; }
 
 #top-header .container #ehsaa-info {
   float: left;
@@ -80,13 +91,6 @@ textarea {
 
 .et_pb_posts.ehsaa-blog-bottom-sm article {
   margin-bottom: 0px; }
-
-.archive article {
-  clear: both; }
-  .archive article a.entry-featured-image-url img {
-    width: 40%;
-    float: left;
-    padding-right: 20px; }
 
 #sidebar,
 .et_pb_widget_area {

@@ -1,11 +1,22 @@
 /* styleing for posts & archives */
 
 // archive pages....
+
+
+.search,
 .archive {
   article {
+    //display: table;
+    clear: both;
     padding-bottom: 20px;
     border-bottom: 1px solid $ehsaa-light-grey;
     margin-bottom: 30px;
+    a.entry-featured-image-url {
+      img {
+        width: 40%;
+        float: left;
+        padding-right: 20px;
+      }
+    }
   }
-
 }
