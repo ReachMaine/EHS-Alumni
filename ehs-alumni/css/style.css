@@ -110,6 +110,16 @@ textarea {
   padding-right: 0px;
   border-right: 0px; }
 
+#footer-bottom #footer-info {
+  width: 100%; }
+  #footer-bottom #footer-info .reach-customer-copyright {
+    float: left; }
+  #footer-bottom #footer-info .reach-branding {
+    float: right; }
+    #footer-bottom #footer-info .reach-branding a:before {
+      content: url("images/reach-favicon.png");
+      padding-right: 4px; }
+
 /* **** media **** */
 @media all and (min-width: 981px) {
   .et_vertical_nav #page-container #main-header {
