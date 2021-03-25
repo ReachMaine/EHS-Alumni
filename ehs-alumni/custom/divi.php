@@ -31,3 +31,10 @@ function ehsaa_top_bar() {
 }
 
 add_action( 'et_before_main_content', 'ehsaa_top_bar' );
+
+add_action('et_after_main_content', 'ehsaa_after_content');
+function ehsaa_after_content () {
+   if (is_page()) {
+    echo do_shortcode('[et_pb_section global_module="2212"][/et_pb_section]');
+  }
+}
