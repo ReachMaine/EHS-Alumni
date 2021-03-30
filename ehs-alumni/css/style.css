@@ -76,10 +76,10 @@ textarea {
 #main-header {
   background-color: #a21e36; }
   #main-header #et-top-navigation #top-menu-nav #top-menu li a {
-    /* color: white;
+    color: white;
     font-size: 1.3em;
     font-weight: normal;
-    line-height: 1.2em; */ }
+    line-height: 1.2em; }
   #main-header #et-top-navigation #et_mobile_nav_menu .mobile_menu_bar:before {
     color: white; }
   #main-header #et-top-navigation #et_mobile_nav_menu .mobile_menu_bar {
